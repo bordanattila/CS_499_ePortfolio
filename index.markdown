@@ -10,9 +10,7 @@ I'm a computer science student and software developer building projects with Pyt
 
 ## Milestone One - Code Review
 
-[Watch the Code Review Video](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-
-[Watch the Code Review Video 2](https://youtu.be/QHAiiBM1X4M)
+[Watch the Code Review Video](https://youtu.be/QHAiiBM1X4M)
 
 ## Featured Projects
 

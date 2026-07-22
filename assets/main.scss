@@ -1,0 +1,72 @@
+---
+---
+
+$brand-color: #2563eb;
+$background-color: #f8fafc;
+$text-color: #1e293b;
+$content-width: 720px;
+
+@import "minima";
+
+.page-content {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.site-header {
+  border-bottom: 1px solid $grey-color-light;
+}
+
+.home {
+  .page-heading {
+    font-size: 1.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid $grey-color-light;
+    font-size: 1.2rem;
+  }
+
+  ul {
+    padding-left: 1.25rem;
+  }
+
+  li + li {
+    margin-top: 0.35rem;
+  }
+
+  a {
+    color: $brand-color;
+
+    &:hover {
+      color: darken($brand-color, 10%);
+    }
+  }
+
+  h2#milestone-one---code-review + p a {
+    display: inline-block;
+    margin-top: 0.25rem;
+    padding: 0.45rem 0.9rem;
+    background: $brand-color;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+
+    &:hover {
+      background: darken($brand-color, 8%);
+      color: #fff;
+    }
+  }
+}
+
+.page-content .wrapper > *:not(.home) {
+  h2 {
+    margin-top: 1.5rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid $grey-color-light;
+  }
+}
